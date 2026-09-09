@@ -15,7 +15,7 @@ def get_db_connection():
     connection = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="root12345",
+        password="********",
         database="street_light_monitoring"
     )
     return connection
